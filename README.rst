@@ -23,6 +23,11 @@ Please install as follows until it is fixed in the next release::
     cd line_profiler
     pip install . --user 
 
+Detailed Steps to do the above process:
+1. Run this as first command : git clone https://github.com/rkern/line_profiler.git
+2. Go to line_profiler directory using "cd line_profiler"
+3. Build the file _line_profiler.pyx using "cython _line_profiler.pyx"
+4. pip install . --user
 Releases of `line_profiler` can be installed using pip::
 
     $ pip install line_profiler
